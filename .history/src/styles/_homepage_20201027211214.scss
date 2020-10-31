@@ -1,0 +1,23 @@
+.jumbotext {
+    font-family: $site-font;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 53px;
+    letter-spacing: -1px;
+    text-align: left;
+    margin-top: 92px;
+}
+
+.jumboimg {
+    margin-top: 47px;
+}
+
+.gridcard {
+    background: #F9F9F9;
+    box-shadow: -10px -21px 28px #FFFFFF, 10px 21px 28px #ECEEF1;
+    border-radius: 18.4px; 
+    border: none;
+    height: 159px;
+    width: 348px;
+}

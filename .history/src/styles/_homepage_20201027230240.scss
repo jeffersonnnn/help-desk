@@ -1,0 +1,51 @@
+.jumbotext {
+    font-family: $site-font;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 53px;
+    letter-spacing: -1px;
+    text-align: left;
+    margin-top: 92px;
+}
+
+.jumboimg {
+    margin-top: 47px;
+}
+
+.gridcard {
+    background: #F9F9F9;
+    box-shadow: -10px -21px 28px #FFFFFF, 10px 21px 28px #ECEEF1;
+    border-radius: 18.4px; 
+    border: none;
+}
+
+.gridcard-title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.800000011920929px;
+    text-align: left;     
+}
+
+.gridcard-text {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.25999999046325684px;
+    text-align: left;
+    // width: 58%
+}
+
+.gridcard-image {
+    width: 20%;
+    height: 20%;
+//     position: absolute;
+// width: 43.07px;
+// height: 43.07px;
+// left: 280.04px;
+// top: 44.93px;
+
+}

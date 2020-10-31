@@ -1,0 +1,61 @@
+.container#content {
+  margin-top: ;
+}
+body {
+  background-color: $light-gray;
+  font-family: $site-font;
+}
+a {
+  color: #000000;
+  &:hover {
+    color: #007bff;
+    text-decoration: none;
+  }
+}
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.navbar {
+  background-color: #F9FAFA;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  line-height: 1;
+  // height: 124px
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+  color: #000000;
+  &:hover {
+    color: #F16521;
+  }
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.button-regular {
+  height: 53px;
+  width: 124px;
+  background: #E9ECEF;
+  outline: none;
+  border-radius: 58px;
+}
+.button-regular:hover {
+  background: #FFFFFF;
+}
+.button-orange {
+  background: #F16521;
+  box-shadow: 0px 9px 14px -8px #FF5300;
+  border-radius: 17.28px;
+}
+.button-green {
+  background: #1CA78B;
+  border-radius: 55px;
+}
+// .icon-login {
+//   background-image : url(../images/remita\ logo.png);
+//   background-size: cover;
+//   display: inline-block;
+//   height: 15px;
+//   width: 15px;
+// }

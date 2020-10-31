@@ -1,0 +1,42 @@
+footer {
+  background-color: $white;
+  // margin-top: 20px;
+  padding: 10px;
+  height: 123px;
+  width: 1446px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+    text-align: center;
+
+  .footer-social-links {
+    text-align: center;
+
+    ul.social-links-list {
+      li {
+        margin-right: 25px;
+        display: inline-block;
+
+        a {
+          color: $dark-gray;
+
+          &.instagram:hover {
+            color: #e95950;
+          }
+          &.facebook:hover {
+            color: rgb(66, 103, 178);
+          }
+          &.twitter:hover {
+            color: rgb(56, 161, 243);
+          }
+          &.google:hover {
+            color: rgb(221, 75, 57);
+          }
+          &.linkedin:hover {
+            color: rgb(0, 119, 181);
+          }
+        }
+      }
+    }
+  }
+}
